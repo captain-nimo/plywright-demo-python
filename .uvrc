@@ -1,0 +1,12 @@
+# UV Configuration File
+
+# Use Python 3.11 (required for greenlet and other dependencies)
+# Python 3.14 support coming soon for these packages
+python = "3.11"
+
+# Sync dependencies on every install
+sync = true
+
+# Show progress
+show-settings = true
+
