@@ -22,13 +22,14 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
 
+    - name: Install uv
+      run: pip install uv
+
     - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+      run: uv sync
 
     - name: Install Playwright browsers
-      run: playwright install
+      run: uv run playwright install
 
     - name: Run UI tests
       run: pytest tests/ui/ -v --tb=short --html=report-ui.html --self-contained-html
@@ -41,7 +42,7 @@ jobs:
 
     - name: Upload test reports
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: test-reports-${{ matrix.python-version }}
         path: |
@@ -50,7 +51,7 @@ jobs:
 
     - name: Upload screenshots on failure
       if: failure()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: screenshots-${{ matrix.python-version }}
         path: test-results/screenshots/
