@@ -47,3 +47,10 @@ test-results/
 report.html
 .playwright/
 
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+

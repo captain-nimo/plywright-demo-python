@@ -416,7 +416,7 @@ wheels = [
 ]
 
 [[package]]
-name = "plywright-demo"
+name = "plywright-demo-python"
 version = "1.0.0"
 source = { virtual = "." }
 dependencies = [

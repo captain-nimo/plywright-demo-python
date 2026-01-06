@@ -59,7 +59,7 @@ A comprehensive demonstration of **Playwright** with Python, showcasing both **U
 1. **Clone the repository**
 ```bash
 git clone <repository-url>
-cd plywright-demo
+cd plywright-demo-python-python
 ```
 
 2. **Install dependencies with UV**
@@ -88,7 +88,7 @@ cp config/.env.example config/.env
 1. **Clone the repository**
 ```bash
 git clone <repository-url>
-cd plywright-demo
+cd plywright-demo-python-python
 ```
 
 2. **Create a virtual environment**

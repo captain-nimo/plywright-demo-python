@@ -1,5 +1,5 @@
 [project]
-name = "plywright-demo"
+name = "plywright-demo-python"
 version = "1.0.0"
 description = "A comprehensive Playwright Python demo project showcasing UI and API automation with best practices"
 readme = "README.md"
@@ -48,10 +48,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/captain-nimo/plywright-demo"
-Repository = "https://github.com/captain-nimo/plywright-demo.git"
-Issues = "https://github.com/captain-nimo/plywright-demo/issues"
-Documentation = "https://github.com/captain-nimo/plywright-demo/blob/main/README.md"
+Homepage = "https://github.com/captain-nimo/plywright-demo-python"
+Repository = "https://github.com/captain-nimo/plywright-demo-python.git"
+Issues = "https://github.com/captain-nimo/plywright-demo-python/issues"
+Documentation = "https://github.com/captain-nimo/plywright-demo-python/blob/main/README.md"
 
 [dependency-groups]
 dev = [
