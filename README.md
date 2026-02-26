@@ -1,4 +1,4 @@
-# Playwright Python Demo Project
+# Playwright Python Full Stack Demo
 
 A comprehensive demonstration of **Playwright** with Python, showcasing both **UI automation** and **API automation** with best practices, testing frameworks, and production-ready patterns.
 
@@ -58,8 +58,8 @@ A comprehensive demonstration of **Playwright** with Python, showcasing both **U
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
-cd plywright-demo-python-python
+git clone git@github.com:captain-nimo/plywright-demo-python-full-stack.git
+cd plywright-demo-python-full-stack
 ```
 
 2. **Install dependencies with UV**
@@ -87,8 +87,8 @@ cp config/.env.example config/.env
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
-cd plywright-demo-python-python
+git clone git@github.com:captain-nimo/plywright-demo-python-full-stack.git
+cd plywright-demo-python-full-stack
 ```
 
 2. **Create a virtual environment**

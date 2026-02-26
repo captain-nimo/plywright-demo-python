@@ -67,7 +67,7 @@ class Config:
 class DevelopmentConfig(Config):
     """Development configuration"""
 
-    HEADLESS = False
+    # Keep HEADLESS from .env file, don't override it
     LOG_LEVEL = "DEBUG"
 
 
